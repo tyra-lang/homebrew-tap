@@ -1,12 +1,12 @@
 class Tyra < Formula
   desc "Tyra programming language compiler"
   homepage "https://github.com/tyra-lang/tyra"
-  version "0.10.1"
+  version "0.11.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tyra-lang/tyra/releases/download/v0.10.1/tyra-v0.10.1-macos-arm64.tar.gz"
-      sha256 "489d5dfe79d408fdb74ec6259730abc22131c7d7acec5a5947a01f70d604b915"
+      url "https://github.com/tyra-lang/tyra/releases/download/v0.11.0/tyra-v0.11.0-macos-arm64.tar.gz"
+      sha256 "9ce8a5516fe0b681d16cd64a7ca9b75ca09c22417ea98d77f1f2d0cb48c7b71f"
     end
   end
 
